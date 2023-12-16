@@ -22,12 +22,6 @@ namespace LoanManagementSystem.Entity
             CarValue = carValue;
         }
 
-        // Getter and setter methods
-        public string GetCarModel() => CarModel;
-        public void SetCarModel(string carModel) => CarModel = carModel;
-
-        public int GetCarValue() => CarValue;
-        public void SetCarValue(int carValue) => CarValue = carValue;
 
         // Print all information
         public override string ToString()

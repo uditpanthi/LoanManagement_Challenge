@@ -29,24 +29,6 @@ namespace LoanManagementSystem.Entity
             CreditScore = creditScore;
         }
 
-        // Getter and setter methods
-        public int GetCustomerId() => CustomerId;
-        public void SetCustomerId(int customerId) => CustomerId = customerId;
-
-        public string GetName() => Name;
-        public void SetName(string name) => Name = name;
-
-        public string GetEmail() => Email;
-        public void SetEmail(string email) => Email = email;
-
-        public string GetPhoneNumber() => PhoneNumber;
-        public void SetPhoneNumber(string phoneNumber) => PhoneNumber = phoneNumber;
-
-        public string GetAddress() => Address;
-        public void SetAddress(string address) => Address = address;
-
-        public int GetCreditScore() => CreditScore;
-        public void SetCreditScore(int creditScore) => CreditScore = creditScore;
 
         // Print all information
         public override string ToString()

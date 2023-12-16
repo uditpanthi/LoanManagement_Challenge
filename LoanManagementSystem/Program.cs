@@ -41,8 +41,7 @@ public class MainModule
             switch (choice)
             {
                 case "1":
-                    Loan loan;
-                    loan = obj.GetLoanDetails();
+                    Loan loan = obj.GetLoanDetails();
 
                     services.ApplyLoan(loan);
                     break;

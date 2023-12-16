@@ -22,12 +22,6 @@ namespace LoanManagementSystem.Entity
             PropertyValue = propertyValue;
         }
 
-        // Getter and setter methods
-        public string GetPropertyAddress() => PropertyAddress;
-        public void SetPropertyAddress(string propertyAddress) => PropertyAddress = propertyAddress;
-
-        public int GetPropertyValue() => PropertyValue;
-        public void SetPropertyValue(int propertyValue) => PropertyValue = propertyValue;
 
         // Print all information
         public override string ToString()
