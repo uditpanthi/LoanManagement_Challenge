@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "localConnectionString": "Server=DESKTOP-JFQUU93;Database=LoanManagementSystem;Trusted_connection=true"
+  }
+}
